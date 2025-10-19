@@ -1,0 +1,15 @@
+{
+  "name": "discord-chat-scraper",
+  "version": "1.0.0",
+  "description": "Simple Discord chat scraper",
+  "main": "discord-chat-scraper.js",
+  "scripts": {
+    "start": "node discord-chat-scraper.js",
+    "scrape": "node discord-chat-scraper.js"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  },
+  "author": "9de",
+  "license": "MIT"
+}
