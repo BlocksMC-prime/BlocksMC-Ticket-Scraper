@@ -20,7 +20,7 @@ It automatically extracts ticket information (author, rank, hours, category, etc
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/blocksmc-ticket-scraper.git
+git clone https://github.com/blocksmc-prime/blocksmc-ticket-scraper.git
 cd blocksmc-ticket-scraper
 ```
 
@@ -34,17 +34,12 @@ npm install jsdom
 
 ### 1. Get your HTML ticket log
 
-Export your Discord ticket (from the BlocksMC Discord) using a Discord chat export tool
-(e.g. [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)) and save it as:
-
-```
-chat.html
-```
+Export your Discord ticket (from the BlocksMC Ticket Discord) with their transcript bot.
 
 ### 2. Run the scraper
 
 ```bash
-node scraper.js chat.html
+node scraper.js {filename}.html
 ```
 
 ### 3. View results
@@ -165,3 +160,4 @@ MIT License © 2025
 Developed for the **BlocksMC Community** ❤️
 
 ### ⭐ If this helped you analyze or archive tickets, give it a star on GitHub!
+
